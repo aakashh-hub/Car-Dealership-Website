@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KOEINIGSEGG</title>
+        <link rel="stylesheet" href="project1.css">
+    </head>
+
+    <body>
+        <div class="grid">
+            <nav class="navbar">
+                <img src="images/thomas.png" class="logo">
+                <h1><b>THOMAS SHELBY CARS</b></h1>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="vid">
+                
+                <video autoplay loop muted playsinline>
+                    <source src="images/K.mp4" type="video/mp4">
+                    <div class="overlay">
+                       <h2>KOEINIGSEGG</h2>
+                    </div>
+                </video>    
+                
+            </div>  
+        </div>
+    </body>
+</html>

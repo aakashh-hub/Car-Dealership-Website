@@ -1,0 +1,227 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 60px;
+}
+.navbar a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar h1{
+    float: left;
+    color: white;
+    margin-top: 17px;
+    margin-left: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    float: left;
+    margin-top: 3px;
+    height: 55px;
+}
+.ts{
+    text-align: center;
+}
+ 
+.overlay {
+    position: absolute; 
+    text-align: center;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    font-weight: 600;
+    font-size: 140px;
+    margin-top: 9%;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.overlay h2:hover{
+    -webkit-text-stroke: 4px white ;
+    color: transparent;
+}
+
+.ks{
+    position: absolute; 
+    text-align: center;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    font-weight: 60;
+    font-size: 30px;
+    margin-top: 30%;
+    color: white;
+}
+.ks a{
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;  
+    transition-duration: 0.4s;
+}
+.ks a:hover{
+    background-color: white;
+    color: black;
+}
+.vid {
+    position: relative; 
+}
+
+@media (min-aspect-ratio: 16/9){
+    .vid{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-aspect-ratio: 16/9){
+    .vid{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.vid1b{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parent{
+    display: flex;
+}
+
+.child1{
+    margin: 5px;
+    width: 33%;
+    height: 775px;
+    background-color: #222222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+.child1 p{
+    margin-top:25px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.child1 img{
+    display: block;
+    max-width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.child2{
+    margin: 5px;
+    width: 34%;
+    height: 775px;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.specs2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.child2 img{
+    display: block;
+    max-width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.child3{
+    margin: 5px;
+    width: 33%;
+    height: 775px;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.child3 img{
+    display: block;
+    max-width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.specs3 p{
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 20px;
+}
+#aSide {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: calc(50% - 250px);
+    right: 7%;
+}
+
+#aSide model-viewer {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+/* .sketchfab-embed-wrapper{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    height:70%;
+    width: 70%;
+    
+} */
+
+.specs1{
+    text-align: center;
+}
+
+.button {
+    background-color: #222222;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid white;
+}
+.button:hover{  
+    background-color: white;
+    color: black;
+}
+
